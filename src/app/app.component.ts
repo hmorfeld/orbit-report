@@ -27,7 +27,8 @@ export class AppComponent {
     }.bind(this));
 
   }
-}
+} 
+// is my loop correct?
 
 
   
