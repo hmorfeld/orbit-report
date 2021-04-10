@@ -5,11 +5,11 @@ export class Satellite {
     operational: boolean;
     launchDate: string;
     constructor(name: string, type: string, launchDate: string, orbitType: string, operational: boolean){
-        this.name = "name";
-        this.orbitType = "orbit type";
-        this.type = "type";
+        this.name = name;
+        this.orbitType = orbitType;
+        this.type = type;
         this.operational = false;
-        this.launchDate = "date";
+        this.launchDate = launchDate;
     }
 
     shouldShowWarning (){
@@ -20,9 +20,3 @@ export class Satellite {
         }
     }
 }
-// Questions: 
-// Local host not working
-//"app-orbit-list" not a known element; how do I verify that it is part of the module?
-//Can't bind to 'satellites' since it isn't a known property of 'app-orbit-list'. ^ same as above.
-//not really understanding how to use shouldShowWaring  to add the warning CSS class to the <td> containing the satellite's type
-// An argument for "name" was not provided in new satellite? But it was? 

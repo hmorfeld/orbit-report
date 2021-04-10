@@ -1,0 +1,9 @@
+Questions: 
+Local host not working
+"app-orbit-list" not a known element; how do I verify that it is part of the module?
+Can't bind to 'satellites' since it isn't a known property of 'app-orbit-list'. ^ same as above.
+Not really understanding how to use shouldShowWaring  to add the warning CSS class to the <td> containing the satellite's type
+An argument for "name" was not provided in new satellite? But it was? 
+Getting this when I go git push
+    error: update_ref failed for ref 'refs/remotes/origin/master': cannot lock ref 'refs/remotes/origin/master': 
+    Unable to create '/home/hmorfeld91/LC101/angular_assignment/orbit-report/.git/refs/remotes/origin/master.lock': Permission denied
